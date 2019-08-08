@@ -81,7 +81,7 @@
             android:layout_marginStart="96dp"/>
 
     <TextView
-            android:text="Livraria Digital"
+            android:text="My Own Place"
             android:layout_width="252dp"
             android:layout_height="79dp"
             android:id="@+id/textView"

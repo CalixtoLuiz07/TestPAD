@@ -20,6 +20,10 @@ class BemVindo : AppCompatActivity() {
             val nextIntent = Intent(this, Romance::class.java)
             startActivity(nextIntent)
         }
+        btnDrama.setOnClickListener{
+
+
+        }
 
 
     }

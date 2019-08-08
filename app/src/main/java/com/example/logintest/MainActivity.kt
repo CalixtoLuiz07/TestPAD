@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtras(params)
                startActivity(intent)
 
-                startTimer("Teste Alarme", 60)
+
 
            }else{
 
@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
             .putExtra(AlarmClock.EXTRA_SKIP_UI, true)
         if (intent.resolveActivity(packageManager) != null) {
             startActivity(intent)
-            Toast.makeText(this, "Alarme programado!", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Login realizado com sucesso", Toast.LENGTH_LONG).show()
 
         }
     }
