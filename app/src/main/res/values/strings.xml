@@ -10,4 +10,6 @@
     <string name="senhaUsuario">Senha:</string>
     <string name="cadastrar">Cadastrar</string>
     <string name="title_activity_romance">Romance</string>
+    <string name="title_activity_ficcao">Ficcao</string>
+    <string name="title_activity_drama">Drama</string>
 </resources>

@@ -12,14 +12,29 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
+                android:name=".Drama"
+                android:label="Drama"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+                android:name=".Ficcao"
+                android:label="@string/title_activity_ficcao"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
                 android:name=".Romance"
                 android:label="@string/title_activity_romance"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
+
         <activity android:name=".CadastroUsuario">
         </activity>
+
         <activity android:name=".BemVindo">
         </activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

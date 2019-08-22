@@ -1,9 +1,9 @@
 package com.example.logintest
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 open class DebugActivity : AppCompatActivity() {
     private val TAG = "Teste"

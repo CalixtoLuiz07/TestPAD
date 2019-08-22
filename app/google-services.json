@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "544615582088",
+    "firebase_url": "https://livraria-digital.firebaseio.com",
+    "project_id": "livraria-digital",
+    "storage_bucket": "livraria-digital.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544615582088:android:5ee2852e9b88f3b9",
+        "android_client_info": {
+          "package_name": "com.example.logintest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544615582088-tnq9iijth9l399urilh1ltdhfj1te4or.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.logintest",
+            "certificate_hash": "3c490a3dfa295bf478883f61f153c28ee17a74a6"
+          }
+        },
+        {
+          "client_id": "544615582088-q8vgrbmk9pi3ogk86ufum55acgembvv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADi0iFr01Kj-cuNh4P9FNNsTxpgL09D6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544615582088-q8vgrbmk9pi3ogk86ufum55acgembvv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

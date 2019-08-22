@@ -9,7 +9,9 @@ import kotlinx.android.synthetic.main.activity_main.*
 import android.provider.ContactsContract.CommonDataKinds.Phone
 import android.content.Intent
 import android.provider.AlarmClock
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.firestore.FirebaseFirestore
+
 import kotlinx.android.synthetic.main.activity_cadastro_usuario.*
 
 class MainActivity : AppCompatActivity() {
@@ -20,6 +22,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val usuario1 = mapOf<Any, Any>("nome" to "luiz" , "idade" to 19)
+        val database = FirebaseFirestore.getInstance()
 
         var buttonLogin = findViewById<Button>(R.id.buttonLogin)
         tLogin = findViewById<EditText>(R.id.editTextLogin)
@@ -31,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             var login = tLogin?.text.toString()
             var senha = tSenha?.text.toString()
 
-            if(login.toLowerCase() == "LUIZ" && senha =="124"){
+            if(login.toLowerCase() == "luiz" && senha =="123"){
 
 
                 val intent = Intent(this, BemVindo::class.java)
